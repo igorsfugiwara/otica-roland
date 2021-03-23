@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav div{
+    display: flex;
+    justify-content: space-between;
+}
+nav div ul{
+    list-style: none;
+    display: flex;
+}
+nav div form{
+    justify-content: flex-end;
+}
+.home{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #B1D044;
+    color: white;
+    text-shadow: 2px 2px 2px #000;
+}
+.home div{
+    display: block;
+}
+.home div h1, .home div p {
+    justify-content: center;
+    display: flex;
+}
+.solucoes{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #e9f2c8;
+}
+.solucoes .carrossel__pontas img{
+    width: 100px;
+    height: 100px;
+}
+.solucoes .carrossel__medios img{
+    width: 200px;
+    height: 200px;
+}
+.solucoes .carrossel__meio img{
+    width: 300px;
+    height: 300px;
+}
+nav{
+    background-color: #5a9800;
+}
